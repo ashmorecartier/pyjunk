@@ -11,7 +11,7 @@ Ces 2 fichiers nécessitent un "viewer" spécifique.
 Avec git
 
 ```bash
-git clone https://github.com/ashmorecartier/Pyjunk
+git clone https://github.com/ashmorecartier/pyjunk.git
 ```
 
 2 extensions sont indispensables : 
