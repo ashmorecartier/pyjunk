@@ -1,0 +1,447 @@
+{
+    "_comment": "param\u00e9trage d'une voile junk (Johanna)",
+    "_date": "date de cr\u00e9ation 2021/02/04",
+    "_auteur": "auteur Marc Jourdain",
+    "voile": {
+        "_comment-filedxf": "Ficher dxf de sortie",
+        "filedxf": "./examples/johanna.dxf",
+        "_comment-filestl": "Ficher stl de sortie",
+        "filestl": "./examples/johanna.stl",
+        "_comment-nStepsDxf": "Nombre de pas de subdivision (entier compris entre >= 5 et <= 500, par d\u00e9faut 20)",
+        "nStepsDxf": 20,
+        "_comment-nStepsStl": "Nombre de pas de subdivision (entier compris entre >= 5 et <= 500, par d\u00e9faut 20)",
+        "nStepsStl": 40,
+        "_comment-fAtwist": "Angle en degr\u00e9s du vrillage de la voile (flottant compris entre >= 0. et <= 24., par d\u00e9faut 0\u00b0)",
+        "fAtwist": 10.0,
+        "_comment-panneaux": "Description des diff\u00e9rents panneaux du bas vers le haut, chaque panneau est d\u00e9crit par 2 batons, bas et haut",
+        "panneaux": [
+            {
+                "numPanneau": 1,
+                "batons": [
+                    {
+                        "type": "Bas",
+                        "extremites": [
+                            {
+                                "type": "Guindant",
+                                "point3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            {
+                                "type": "Chute",
+                                "point3D": {
+                                    "x": 3480.83,
+                                    "y": 0.0,
+                                    "z": 365.85
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Haut",
+                        "extremites": [
+                            {
+                                "type": "Guindant",
+                                "point3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 700.0
+                                }
+                            },
+                            {
+                                "type": "Chute",
+                                "point3D": {
+                                    "x": 3480.83,
+                                    "y": 0.0,
+                                    "z": 1065.85
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "_comment-fChainLuff": "C\u00f4t\u00e9 guidant pourcentage de fLluff valant creux de la chainette (flottant compris entre >= 0. et <= 10., par d\u00e9faut 2.)",
+                "fChainLuff": 2.0,
+                "_comment-fChainLeech": "C\u00f4t\u00e9 chute pourcentage de fLleech valant creux de la chainette (flottant compris entre >= 0. et <= 10., par d\u00e9faut 2.)",
+                "fChainLeech": 2.0,
+                "_comment-fCouture": "Largeur de la couture (flottant compris entre >= 0. et <= 24., par d\u00e9faut 12.\u00b0)",
+                "fCouture": 12.0,
+                "_comment-model": "Model tube, un mod\u00e8le avec un creux donn\u00e9 entre deux positions d\u00e9finies en pourcentage",
+                "model": {
+                    "nameModel": "ModelTube",
+                    "paramModel": {
+                        "rpdepthmin": 15.0,
+                        "rpdepthmax": 85.0,
+                        "creuxmax": 100.0
+                    }
+                }
+            },
+            {
+                "numPanneau": 2,
+                "batons": [
+                    {
+                        "type": "Bas",
+                        "extremites": [
+                            {
+                                "type": "Guindant",
+                                "point3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 700.0
+                                }
+                            },
+                            {
+                                "type": "Chute",
+                                "point3D": {
+                                    "x": 3480.83,
+                                    "y": 0.0,
+                                    "z": 1065.85
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Haut",
+                        "extremites": [
+                            {
+                                "type": "Guindant",
+                                "point3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 1400.0
+                                }
+                            },
+                            {
+                                "type": "Chute",
+                                "point3D": {
+                                    "x": 3480.83,
+                                    "y": 0.0,
+                                    "z": 1765.85
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "_comment-fChainLuff": "C\u00f4t\u00e9 guidant pourcentage de fLluff valant creux de la chainette (flottant compris entre >= 0. et <= 10., par d\u00e9faut 2.)",
+                "fChainLuff": 2.0,
+                "_comment-fChainLeech": "C\u00f4t\u00e9 chute pourcentage de fLleech valant creux de la chainette (flottant compris entre >= 0. et <= 10., par d\u00e9faut 2.)",
+                "fChainLeech": 2.0,
+                "_comment-fCouture": "Largeur de la couture (flottant compris entre >= 0. et <= 24., par d\u00e9faut 12.\u00b0)",
+                "fCouture": 12.0,
+                "_comment-model": "Model tube, un mod\u00e8le avec un creux donn\u00e9 entre deux positions d\u00e9finies en pourcentage",
+                "model": {
+                    "nameModel": "ModelTube",
+                    "paramModel": {
+                        "rpdepthmin": 15.0,
+                        "rpdepthmax": 85.0,
+                        "creuxmax": 100.0
+                    }
+                }
+            },
+            {
+                "numPanneau": 3,
+                "batons": [
+                    {
+                        "type": "Bas",
+                        "extremites": [
+                            {
+                                "type": "Guindant",
+                                "point3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 1400.0
+                                }
+                            },
+                            {
+                                "type": "Chute",
+                                "point3D": {
+                                    "x": 3480.83,
+                                    "y": 0.0,
+                                    "z": 1765.85
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Haut",
+                        "extremites": [
+                            {
+                                "type": "Guindant",
+                                "point3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 2100.0
+                                }
+                            },
+                            {
+                                "type": "Chute",
+                                "point3D": {
+                                    "x": 3480.83,
+                                    "y": 0.0,
+                                    "z": 2465.85
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "_comment-fChainLuff": "C\u00f4t\u00e9 guidant pourcentage de fLluff valant creux de la chainette (flottant compris entre >= 0. et <= 10., par d\u00e9faut 2.)",
+                "fChainLuff": 2.0,
+                "_comment-fChainLeech": "C\u00f4t\u00e9 chute pourcentage de fLleech valant creux de la chainette (flottant compris entre >= 0. et <= 10., par d\u00e9faut 2.)",
+                "fChainLeech": 2.0,
+                "_comment-fCouture": "Largeur de la couture (flottant compris entre >= 0. et <= 24., par d\u00e9faut 12.\u00b0)",
+                "fCouture": 12.0,
+                "_comment-model": "Model tube, un mod\u00e8le avec un creux donn\u00e9 entre deux positions d\u00e9finies en pourcentage",
+                "model": {
+                    "nameModel": "ModelTube",
+                    "paramModel": {
+                        "rpdepthmin": 15.0,
+                        "rpdepthmax": 85.0,
+                        "creuxmax": 100.0
+                    }
+                }
+            },
+            {
+                "numPanneau": 4,
+                "batons": [
+                    {
+                        "type": "Bas",
+                        "extremites": [
+                            {
+                                "type": "Guindant",
+                                "point3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 2100.0
+                                }
+                            },
+                            {
+                                "type": "Chute",
+                                "point3D": {
+                                    "x": 3480.83,
+                                    "y": 0.0,
+                                    "z": 2465.85
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Haut",
+                        "extremites": [
+                            {
+                                "type": "Guindant",
+                                "point3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 2800.0
+                                }
+                            },
+                            {
+                                "type": "Chute",
+                                "point3D": {
+                                    "x": 3480.83,
+                                    "y": 0.0,
+                                    "z": 3165.85
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "_comment-fChainLuff": "C\u00f4t\u00e9 guidant pourcentage de fLluff valant creux de la chainette (flottant compris entre >= 0. et <= 10., par d\u00e9faut 2.)",
+                "fChainLuff": 2.0,
+                "_comment-fChainLeech": "C\u00f4t\u00e9 chute pourcentage de fLleech valant creux de la chainette (flottant compris entre >= 0. et <= 10., par d\u00e9faut 2.)",
+                "fChainLeech": 2.0,
+                "_comment-fCouture": "Largeur de la couture (flottant compris entre >= 0. et <= 24., par d\u00e9faut 12.\u00b0)",
+                "fCouture": 12.0,
+                "_comment-model": "Model tube, un mod\u00e8le avec un creux donn\u00e9 entre deux positions d\u00e9finies en pourcentage",
+                "model": {
+                    "nameModel": "ModelTube",
+                    "paramModel": {
+                        "rpdepthmin": 15.0,
+                        "rpdepthmax": 85.0,
+                        "creuxmax": 100.0
+                    }
+                }
+            },
+            {
+                "numPanneau": 5,
+                "batons": [
+                    {
+                        "type": "Bas",
+                        "extremites": [
+                            {
+                                "type": "Guindant",
+                                "point3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 2800.0
+                                }
+                            },
+                            {
+                                "type": "Chute",
+                                "point3D": {
+                                    "x": 3480.83,
+                                    "y": 0.0,
+                                    "z": 3165.85
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Haut",
+                        "extremites": [
+                            {
+                                "type": "Guindant",
+                                "point3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 3150.0
+                                }
+                            },
+                            {
+                                "type": "Chute",
+                                "point3D": {
+                                    "x": 3061.17,
+                                    "y": 0.0,
+                                    "z": 4846.83
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "_comment-fChainLuff": "C\u00f4t\u00e9 guidant pourcentage de fLluff valant creux de la chainette (flottant compris entre >= 0. et <= 10., par d\u00e9faut 2.)",
+                "fChainLuff": 2.0,
+                "_comment-fChainLeech": "C\u00f4t\u00e9 chute pourcentage de fLleech valant creux de la chainette (flottant compris entre >= 0. et <= 10., par d\u00e9faut 2.)",
+                "fChainLeech": 2.0,
+                "_comment-fCouture": "Largeur de la couture (flottant compris entre >= 0. et <= 24., par d\u00e9faut 12.\u00b0)",
+                "fCouture": 12.0,
+                "_comment-model": "Model tube, un mod\u00e8le avec un creux donn\u00e9 entre deux positions d\u00e9finies en pourcentage",
+                "model": {
+                    "nameModel": "ModelParabolique",
+                    "paramModel": {
+                        "rpdepth": 35.0,
+                        "creuxmax": 80.0
+                    }
+                }
+            },
+            {
+                "numPanneau": 6,
+                "batons": [
+                    {
+                        "type": "Bas",
+                        "extremites": [
+                            {
+                                "type": "Guindant",
+                                "point3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 3150.0
+                                }
+                            },
+                            {
+                                "type": "Chute",
+                                "point3D": {
+                                    "x": 3061.17,
+                                    "y": 0.0,
+                                    "z": 4846.83
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Haut",
+                        "extremites": [
+                            {
+                                "type": "Guindant",
+                                "point3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 3325.0
+                                }
+                            },
+                            {
+                                "type": "Chute",
+                                "point3D": {
+                                    "x": 2154.82,
+                                    "y": 0.0,
+                                    "z": 6083.04
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "_comment-fChainLuff": "C\u00f4t\u00e9 guidant pourcentage de fLluff valant creux de la chainette (flottant compris entre >= 0. et <= 10., par d\u00e9faut 2.)",
+                "fChainLuff": 2.0,
+                "_comment-fChainLeech": "C\u00f4t\u00e9 chute pourcentage de fLleech valant creux de la chainette (flottant compris entre >= 0. et <= 10., par d\u00e9faut 2.)",
+                "fChainLeech": 2.0,
+                "_comment-fCouture": "Largeur de la couture (flottant compris entre >= 0. et <= 24., par d\u00e9faut 12.\u00b0)",
+                "fCouture": 12.0,
+                "_comment-model": "Model tube, un mod\u00e8le avec un creux donn\u00e9 entre deux positions d\u00e9finies en pourcentage",
+                "model": {
+                    "nameModel": "ModelParabolique",
+                    "paramModel": {
+                        "rpdepth": 35.0,
+                        "creuxmax": 60.0
+                    }
+                }
+            },
+            {
+                "numPanneau": 7,
+                "batons": [
+                    {
+                        "type": "Bas",
+                        "extremites": [
+                            {
+                                "type": "Guindant",
+                                "point3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 3325.0
+                                }
+                            },
+                            {
+                                "type": "Chute",
+                                "point3D": {
+                                    "x": 2154.82,
+                                    "y": 0.0,
+                                    "z": 6083.04
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "Haut",
+                        "extremites": [
+                            {
+                                "type": "Guindant",
+                                "point3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 3412.0
+                                }
+                            },
+                            {
+                                "type": "Chute",
+                                "point3D": {
+                                    "x": 905.87,
+                                    "y": 0.0,
+                                    "z": 6793.24
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "_comment-fChainLuff": "C\u00f4t\u00e9 guidant pourcentage de fLluff valant creux de la chainette (flottant compris entre >= 0. et <= 10., par d\u00e9faut 2.)",
+                "fChainLuff": 2.0,
+                "_comment-fChainLeech": "C\u00f4t\u00e9 chute pourcentage de fLleech valant creux de la chainette (flottant compris entre >= 0. et <= 10., par d\u00e9faut 2.)",
+                "fChainLeech": 2.0,
+                "_comment-fCouture": "Largeur de la couture (flottant compris entre >= 0. et <= 24., par d\u00e9faut 12.\u00b0)",
+                "fCouture": 12.0,
+                "_comment-model": "Model tube, un mod\u00e8le avec un creux donn\u00e9 entre deux positions d\u00e9finies en pourcentage",
+                "model": {
+                    "nameModel": "ModelFlat"
+                }
+            }
+        ]
+    }
+}
